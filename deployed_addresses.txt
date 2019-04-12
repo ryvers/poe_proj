@@ -1,0 +1,10 @@
+Contracts were deployed to:
+1. Rinkeby Testnet
+addresses:
+- ProxyPoe: 0x6783Ed46E16b5e74F8C457418141F5D005836858 - verified - remember to use this address and LogicPoe ABI because of upgradeability
+- LogicPoe: 0x13756e6d2Bc234efb43E812Dd76904CFA44eF866 - verified
+
+2. Ropsten Testnet
+addresses:
+- ProxyPoe: 0xcc2b8f4aa5a2269da19dac24b8a6db7f29310a07 - remember to use this address and LogicPoe ABI because of upgradeability
+- LogicPoe: 0x33cd01ee2b9378103b626243e7adb6584f680fe0
