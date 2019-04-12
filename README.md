@@ -26,7 +26,7 @@ This decentralized application consits of :
 ---
 
 #### Prerequisities:
-Make sure that your browser supports MetaMask or similar, recommended browsers: firefox, chrome, brave.
+Make sure that your browser supports MetaMask or similar, recommended browsers: firefox, chrome, brave.  
 Make sure that you have truffle, ganache-cli and IPFS installed globally on your working environment.
 IPFS and ganache-cli should work on `127.0.0.1` IP address, which is their default configuration.
 I won't provide detailed instruction for it but you can easily find instructions or tutorials (like these below) on the internet.  
