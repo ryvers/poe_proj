@@ -26,12 +26,13 @@ This decentralized application consits of :
 ---
 
 #### Prerequisities:
+Make sure that your browser supports MetaMask or similar, recommended browsers: firefox, chrome, brave.
 Make sure that you have truffle, ganache-cli and IPFS installed globally on your working environment.
 IPFS and ganache-cli should work on `127.0.0.1` IP address, which is their default configuration.
-I won't provide detailed instruction for it but you can easily find instructions or tutorials (like these below) on the internet.
-https://truffleframework.com/docs/truffle/getting-started/installation
-https://nethereum.readthedocs.io/en/latest/ethereum-and-clients/ganache-cli/
-https://github.com/ipfs/go-ipfs#install
+I won't provide detailed instruction for it but you can easily find instructions or tutorials (like these below) on the internet.  
+https://truffleframework.com/docs/truffle/getting-started/installation  
+https://nethereum.readthedocs.io/en/latest/ethereum-and-clients/ganache-cli/  
+https://github.com/ipfs/go-ipfs#install  
 
 #### Running local development environment
 1. Run ganache-cli in terminal or CLI to setup local & private blockchain, leave it running
@@ -46,6 +47,8 @@ https://github.com/ipfs/go-ipfs#install
 10. Run command: `npm start` - this will bring up PoE DApp
 
 #### Additional considerations:
+- if you are running Poe on your local setup remember to connect with MetaMask to correct rpc address specified for your network
+- playing with the app requires some amount of test ether, keep that in mind
 - default configuration assumes that every element of this application is working with its default setup like port or address, mostly 127.0.0.1
 - you can configure IPFS node for PoE DApp, config is stored in client folder
 - camera works only for secure origins (see: https://goo.gl/Y0ZkNV), with default configuration like localhost there is no issue

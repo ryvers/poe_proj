@@ -3,7 +3,6 @@ const config = {
     ipfsBrowserPort: "8080",
     ipfsNodePort: "5001",
     maxSize: 5242880, //5MB
-    availableNetworks: "private, rinkeby"
 };
 
 export default config;

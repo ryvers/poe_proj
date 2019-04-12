@@ -55,7 +55,7 @@ class App extends Component {
       if(!deployed || !proxy){
           this.setState({ web3 });
           alert('No deployed contracts for this network');
-          alert('Select one of available networks: ' + config.availableNetworks);
+          alert('Change network in MetaMask');
           return;
       }
       const instance = new web3.eth.Contract(
