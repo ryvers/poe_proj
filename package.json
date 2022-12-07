@@ -11,7 +11,7 @@
     "chai-as-promised": "^7.1.1",
     "chai-bignumber": "^3.0.0",
     "eth-ens-namehash": "^2.0.8",
-    "ipfs": "^0.34.4",
+    "ipfs": "^0.65.0",
     "moment": "^2.24.0",
     "openzeppelin-test-helpers": "^0.3.0",
     "truffle-assertions": "^0.8.0",
